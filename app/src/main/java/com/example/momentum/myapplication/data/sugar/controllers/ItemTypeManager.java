@@ -31,7 +31,12 @@ public class ItemTypeManager {
 
 
     public List<ItemType> searchContains(String search) {
-        List<ItemType> results = ItemType.listAll(ItemType.class);
+        Type type = Type.find(Type.class,"name = ?","Clothing Type").get(0);
+        List<ItemType> results = ItemType.find(
+                ItemType.class,
+                "type = ?",
+                String.valueOf(type.getId())
+        );
         String items[] = AndroidUtilities.explode(search," ");
         for (int i=0;i<results.size();i++){
             boolean valido = false;
