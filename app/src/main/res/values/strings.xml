@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name"> Rokk3rLabs </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="searcher">Searcher</string>
+    <string name="search">search</string>
+    <string name="loading">Loading</string>
+    <string name="brand">Brand</string>
+    <string name="clothing_type"><![CDATA[Clothing Type ]]></string>
+    <string name="result_query"><![CDATA[Result Query ]]></string>
+    <string name="items_empty">Lo sentidos, no se han encontrado coincidencias con  %1$s </string>
+</resources>
